@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "de031a74edf18ad5387dc63639f3f56801b27df743d069122148c1dcb265f57b"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.11"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pickledb": {
+            "hashes": [
+                "sha256:ec6973e65d7d112849e78ce522840aa908efb2523470bb8ce5c7942310192240"
+            ],
+            "index": "pypi",
+            "version": "==0.9.2"
+        }
+    },
+    "develop": {}
+}
