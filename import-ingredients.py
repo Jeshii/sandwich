@@ -10,7 +10,19 @@ db.set('toppings', [
                     {'name': 'lettuce', 'quantity': 1, 'unit': 'heads'}, 
                     {'name': 'tomato', 'quantity': 0, 'unit': 'each'}, 
                     {'name': 'onion', 'quantity': 2, 'unit': 'each'},
-                    {'name': 'american cheese', 'quantity': 10, 'unit': 'slices'},
+                    ])
+db.set('cheese', [
+                    {'name': 'american', 'quantity': 10, 'unit': 'slices'}, 
+                    {'name': 'mozzarella', 'quantity': 500, 'unit': 'g'}, 
+                    {'name': 'provalone', 'quantity': 0, 'unit': 'each'},
+                    {'name': 'cottage', 'quantity': 0, 'unit': 'g'},
+                    ])
+db.set('meat', [
+                    {'name': 'bacon', 'quantity': 1, 'unit': 'slices'}, 
+                    {'name': 'pastrami', 'quantity': 0, 'unit': 'g'}, 
+                    {'name': 'ham', 'quantity': 0, 'unit': 'each'},
+                    {'name': 'chicken can', 'quantity': 0, 'unit': 'g'},
+                    {'name': 'tuna can', 'quantity': 0, 'unit': 'g'},
                     ])
 db.set('condiments', [
                     {'name': 'mayo', 'quantity': 20, 'unit': "ml"}, 
