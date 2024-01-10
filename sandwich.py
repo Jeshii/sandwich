@@ -8,8 +8,7 @@ db = pickledb.load('sandwich.json', False)
 
 toppings = db.get('toppings')
 
-
-table = Table(show_header=True, header_style="bold magenta")
+table = Table(show_header=True, header_style="bold red")
 table.add_column("Ingredient")
 table.add_column("Quantity", justify="right")
 table.add_column("Unit")
